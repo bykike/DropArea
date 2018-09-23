@@ -31,30 +31,30 @@ $(document).ready(function (){
 				    var ext = mockFile.name.split(".")[1];
 				    switch(ext){
 				    	case "xls":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/excel.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/excel.png');
 				    		break;
 				    	case "xlsx":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/excel.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/excel.png');
 				    		break;
 				    	case "pdf":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/pdf.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/pdf.png');
 				    		break;
 				    	case "doc":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/doc.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/doc.png');
 				    	case "docx":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/doc.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/doc.png');
 				    		break;
 				    	case "zip":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/zip.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/zip.png');
 				    		break;
 				    	case "rar":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/rar.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/rar.png');
 				    		break;
 				    	case "ppt":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/ppt.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/ppt.png');
 				    		break;
 				    	case "pptx":
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/ppt.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'mg/ppt.png');
 				    		break;
 				    	case "png":
 				    		break;
@@ -63,7 +63,7 @@ $(document).ready(function (){
 				    	case "jpeg":
 				    		break;
 				    	default:
-				    		thisDropzone.createThumbnailFromUrl(mockFile, 'dist/img/nose.png');
+				    		thisDropzone.createThumbnailFromUrl(mockFile, 'img/nose.png');
 				    		break;
 				    }
 	            });
@@ -75,32 +75,32 @@ $(document).ready(function (){
 
 		    switch (file.type) {
 		      case 'application/pdf':
-		        thumbnail.css('background', 'url(dist/img/pdf.png');
+		        thumbnail.css('background', 'url(img/pdf.png');
 		        break;
 		      case 'application/vnd.openxmlformats-officedocument.wordprocessingml.document':
-		        thumbnail.css('background', 'url(dist/img/doc.png');
+		        thumbnail.css('background', 'url(img/doc.png');
 		        break;
 		      case 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet':
-		        thumbnail.css('background', 'url(dist/img/excel.png');
+		        thumbnail.css('background', 'url(img/excel.png');
 		        break;
 		       case 'application/vnd.ms-excel':
-		       	thumbnail.css('background', 'url(dist/img/excel.png');
+		       	thumbnail.css('background', 'url(img/excel.png');
 		        break;
 		       case 'application/zip, application/x-compressed-zip':
-		       	thumbnail.css('background', 'url(dist/img/zip.png');
+		       	thumbnail.css('background', 'url(img/zip.png');
 		        break;
 		       case 'application/vnd.ms-powerpointtd>':
-		       	thumbnail.css('background', 'url(dist/img/ppt.png');
+		       	thumbnail.css('background', 'url(img/ppt.png');
 		        break;
 		       case 'application/vnd.openxmlformats-officedocument.presentationml.presentation':
-		       	thumbnail.css('background', 'url(dist/img/ppt.png');
+		       	thumbnail.css('background', 'url(img/ppt.png');
 		        break;
 		       case 'image/jpeg':
 		       	break;
 		       case 'image/png':
 		       	break;
 		       default:
-		       	thumbnail.css('background', 'url(dist/img/nose.png');
+		       	thumbnail.css('background', 'url(img/nose.png');
 		    }
 
 		    done();
