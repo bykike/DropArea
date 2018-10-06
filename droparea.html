@@ -107,7 +107,7 @@ $(document).ready(function (){
 		  },
             /* ESTE EVENTO NOS PERMITE ELIMINAR REALMENTE EL ARCHIVO DEL SERVIDOR */
 	    removedfile: function(file) {
-	    	$.get( "eliminarArchivo.php", {
+	    	$.get( "eliminararchivo.php", {
 	    		nombre: file.name
 	    	}).done(function( data ) {
 			    var _ref;
